@@ -1,0 +1,9 @@
+.glass-border{
+    background: radial-gradient(circle at 100% 100%, rgba(255,255,255,0) 0, rgba(255,255,255,0) 4px, transparent 4px) 0% 0%/6px 6px no-repeat,
+            radial-gradient(circle at 0 100%, rgba(255,255,255,0) 0, rgba(255,255,255,0) 4px, transparent 4px) 100% 0%/6px 6px no-repeat,
+            radial-gradient(circle at 100% 0, rgba(255,255,255,0) 0, rgba(255,255,255,0) 4px, transparent 4px) 0% 100%/6px 6px no-repeat,
+            radial-gradient(circle at 0 0, rgba(255,255,255,0) 0, rgba(255,255,255,0) 4px, transparent 4px) 100% 100%/6px 6px no-repeat,
+            linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) 50% 50%/calc(100% - 4px) calc(100% - 12px) no-repeat,
+            linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) 50% 50%/calc(100% - 12px) calc(100% - 4px) no-repeat,
+            linear-gradient(134deg, rgba(255,255,255,0.6) 0%, rgba(114,38,38,0.1) 100%);
+}
